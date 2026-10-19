@@ -15,6 +15,10 @@ jobs:
         with:
           channel: stable
       - run: flutter create --platforms=android --org com.example .
+- run: flutter create --platforms=android --org com.example .
+- run: flutter clean
+- run: flutter pub get
+- run: flutter build apk --release
       - run: flutter pub get
       - run: flutter build apk --release
       - uses: actions/upload-artifact@v4
