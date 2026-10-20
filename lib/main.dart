@@ -7,8 +7,61 @@ import 'extra.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Store.load();
-  runApp(const App());
+  runApp(const StartupApp());
+}
+
+class StartupApp extends StatefulWidget {
+  const StartupApp({super.key});
+  @override
+  State<StartupApp> createState() => _StartupAppState();
+}
+
+class _StartupAppState extends State<StartupApp> {
+  late Future<void> loading;
+
+  @override
+  void initState() {
+    super.initState();
+    loading = Store.load().timeout(const Duration(seconds: 15));
+  }
+
+  @override
+  Widget build(BuildContext context) => FutureBuilder<void>(
+    future: loading,
+    builder: (context, snapshot) {
+      if (snapshot.connectionState == ConnectionState.done && !snapshot.hasError) {
+        return const App();
+      }
+      return MaterialApp(
+        debugShowCheckedModeBanner: false,
+        home: Scaffold(
+          appBar: AppBar(title: const Text('Linux Notes')),
+          body: Center(
+            child: Padding(
+              padding: const EdgeInsets.all(24),
+              child: snapshot.hasError
+                ? SingleChildScrollView(child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      const Text('Startup failed', style: TextStyle(fontSize: 22)),
+                      const SizedBox(height: 12),
+                      SelectableText('${snapshot.error}'),
+                      const SizedBox(height: 16),
+                      ElevatedButton(onPressed: () => setState(() {
+                        loading = Store.load().timeout(const Duration(seconds: 15));
+                      }), child: const Text('Retry')),
+                    ],
+                  ))
+                : const Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [CircularProgressIndicator(), SizedBox(height: 16), Text('Loading Linux Notes...')],
+                  ),
+            ),
+          ),
+        ),
+      );
+    },
+  );
 }
 
 class Store {
