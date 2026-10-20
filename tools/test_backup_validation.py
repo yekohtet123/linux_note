@@ -2,7 +2,7 @@
 from pathlib import Path
 s=(Path(__file__).resolve().parents[1]/'lib/offline_toolkit.dart').read_text(encoding='utf-8')
 assert "v.length > 5000" in s
-assert "(x as String).length > 300" in s
+assert "x.length > 300" in s or "(x as String).length > 300" in s
 assert "v.any((e)=>e is! int)" in s
 assert "(entry.value as int) > 100000" in s
 assert "A pack with this title already exists" in s
