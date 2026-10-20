@@ -1,7 +1,8 @@
-name: Build APK
+name: Build Android APK
 on:
-  push:
   workflow_dispatch:
+  push:
+    branches: [main, master]
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -14,16 +15,16 @@ jobs:
       - uses: subosito/flutter-action@v2
         with:
           channel: stable
-      - name: Generate Android project
-        run: flutter create --platforms=android --org com.example .
-      - name: Refresh dependencies and generated plugin registrants
+          cache: false
+      - name: Recreate Android platform and resolve dependencies
         run: |
-          flutter clean
-          flutter pub upgrade --major-versions
+          rm -rf android .dart_tool build pubspec.lock
+          flutter create --platforms=android --org com.example .
           flutter pub get
-      - name: Build clean release APK
+          flutter pub deps | grep -E 'shared_preferences|plugin_platform_interface' || true
+      - name: Build APK
         run: flutter build apk --release
       - uses: actions/upload-artifact@v4
         with:
-          name: linux-notes-apk
+          name: linux-notes-android-apk
           path: build/app/outputs/flutter-apk/app-release.apk

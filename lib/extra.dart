@@ -247,8 +247,8 @@ class _QuizPlayState extends State<QuizPlay> {
             color: picked == null
                 ? null
                 : opts[i] == q!['c']
-                    ? Colors.green.withValues(alpha: 0.35)
-                    : (picked == i ? Colors.red.withValues(alpha: 0.35) : null),
+                    ? Colors.green.withOpacity(0.35)
+                    : (picked == i ? Colors.red.withOpacity(0.35) : null),
             child: ListTile(
               title: Text(opts[i], style: const TextStyle(fontFamily: 'monospace')),
               onTap: picked != null ? null : () => answer(i),
