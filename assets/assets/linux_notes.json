@@ -13794,7 +13794,7 @@
   },
   {
     "category": "🧪 Linux Labs — Navigation",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Linux Lab 001 — Navigation (Beginner)",
@@ -13875,7 +13875,7 @@
   },
   {
     "category": "🧪 Linux Labs — Files",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Linux Lab 006 — Files (Beginner)",
@@ -13956,7 +13956,7 @@
   },
   {
     "category": "🧪 Linux Labs — Permissions",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Linux Lab 011 — Permissions (Beginner)",
@@ -14037,7 +14037,7 @@
   },
   {
     "category": "🧪 Linux Labs — Users",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Linux Lab 016 — Users (Beginner)",
@@ -14118,7 +14118,7 @@
   },
   {
     "category": "🧪 Linux Labs — Processes",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Linux Lab 021 — Processes (Beginner)",
@@ -14199,7 +14199,7 @@
   },
   {
     "category": "🧪 Linux Labs — Services",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Linux Lab 026 — Services (Beginner)",
@@ -14280,7 +14280,7 @@
   },
   {
     "category": "🧪 Linux Labs — Logs",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Linux Lab 031 — Logs (Beginner)",
@@ -14361,7 +14361,7 @@
   },
   {
     "category": "🧪 Linux Labs — Storage",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Linux Lab 036 — Storage (Beginner)",
@@ -14442,7 +14442,7 @@
   },
   {
     "category": "🧪 Linux Labs — Mounts",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Linux Lab 041 — Mounts (Beginner)",
@@ -14523,7 +14523,7 @@
   },
   {
     "category": "🧪 Linux Labs — Networking",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Linux Lab 046 — Networking (Beginner)",
@@ -14604,7 +14604,7 @@
   },
   {
     "category": "🧪 Linux Labs — DNS",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Linux Lab 051 — DNS (Beginner)",
@@ -14685,7 +14685,7 @@
   },
   {
     "category": "🧪 Linux Labs — HTTP",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Linux Lab 056 — HTTP (Beginner)",
@@ -14766,7 +14766,7 @@
   },
   {
     "category": "🧪 Linux Labs — SSH",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Linux Lab 061 — SSH (Beginner)",
@@ -14847,7 +14847,7 @@
   },
   {
     "category": "🧪 Linux Labs — Packages",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Linux Lab 066 — Packages (Beginner)",
@@ -14928,7 +14928,7 @@
   },
   {
     "category": "🧪 Linux Labs — SELinux",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Linux Lab 071 — SELinux (Beginner)",
@@ -15009,7 +15009,7 @@
   },
   {
     "category": "🧪 Linux Labs — Firewall",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Linux Lab 076 — Firewall (Beginner)",
@@ -15090,7 +15090,7 @@
   },
   {
     "category": "🧪 Linux Labs — Cron",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Linux Lab 081 — Cron (Beginner)",
@@ -15171,7 +15171,7 @@
   },
   {
     "category": "🧪 Linux Labs — Archives",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Linux Lab 086 — Archives (Beginner)",
@@ -15252,7 +15252,7 @@
   },
   {
     "category": "🧪 Linux Labs — Performance",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Linux Lab 091 — Performance (Beginner)",
@@ -15333,7 +15333,7 @@
   },
   {
     "category": "🧪 Linux Labs — Troubleshooting",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Linux Lab 096 — Troubleshooting (Beginner)",
@@ -15414,7 +15414,7 @@
   },
   {
     "category": "🧪 DevOps Labs — Git Basics",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "DevOps Lab 001 — Git Basics (Beginner)",
@@ -15495,7 +15495,7 @@
   },
   {
     "category": "🧪 DevOps Labs — Git Branches",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "DevOps Lab 006 — Git Branches (Beginner)",
@@ -15576,7 +15576,7 @@
   },
   {
     "category": "🧪 DevOps Labs — Git Ignore",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "DevOps Lab 011 — Git Ignore (Beginner)",
@@ -15657,7 +15657,7 @@
   },
   {
     "category": "🧪 DevOps Labs — Git History",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "DevOps Lab 016 — Git History (Beginner)",
@@ -15738,7 +15738,7 @@
   },
   {
     "category": "🧪 DevOps Labs — Git Remote",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "DevOps Lab 021 — Git Remote (Beginner)",
@@ -15819,7 +15819,7 @@
   },
   {
     "category": "🧪 DevOps Labs — CI Concepts",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "DevOps Lab 026 — CI Concepts (Beginner)",
@@ -15900,7 +15900,7 @@
   },
   {
     "category": "🧪 DevOps Labs — GitHub Actions",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "DevOps Lab 031 — GitHub Actions (Beginner)",
@@ -15981,7 +15981,7 @@
   },
   {
     "category": "🧪 DevOps Labs — Build Checks",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "DevOps Lab 036 — Build Checks (Beginner)",
@@ -16062,7 +16062,7 @@
   },
   {
     "category": "🧪 DevOps Labs — Release",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "DevOps Lab 041 — Release (Beginner)",
@@ -16143,7 +16143,7 @@
   },
   {
     "category": "🧪 DevOps Labs — Artifacts",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "DevOps Lab 046 — Artifacts (Beginner)",
@@ -16224,7 +16224,7 @@
   },
   {
     "category": "🧪 DevOps Labs — YAML",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "DevOps Lab 051 — YAML (Beginner)",
@@ -16305,7 +16305,7 @@
   },
   {
     "category": "🧪 DevOps Labs — Ansible Inventory",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "DevOps Lab 056 — Ansible Inventory (Beginner)",
@@ -16386,7 +16386,7 @@
   },
   {
     "category": "🧪 DevOps Labs — Ansible Facts",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "DevOps Lab 061 — Ansible Facts (Beginner)",
@@ -16467,7 +16467,7 @@
   },
   {
     "category": "🧪 DevOps Labs — Ansible Playbook",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "DevOps Lab 066 — Ansible Playbook (Beginner)",
@@ -16548,7 +16548,7 @@
   },
   {
     "category": "🧪 DevOps Labs — Monitoring",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "DevOps Lab 071 — Monitoring (Beginner)",
@@ -16629,7 +16629,7 @@
   },
   {
     "category": "🧪 DevOps Labs — Prometheus",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "DevOps Lab 076 — Prometheus (Beginner)",
@@ -16710,7 +16710,7 @@
   },
   {
     "category": "🧪 DevOps Labs — Observability",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "DevOps Lab 081 — Observability (Beginner)",
@@ -16791,7 +16791,7 @@
   },
   {
     "category": "🧪 DevOps Labs — Security Scan",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "DevOps Lab 086 — Security Scan (Beginner)",
@@ -16872,7 +16872,7 @@
   },
   {
     "category": "🧪 DevOps Labs — Environment",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "DevOps Lab 091 — Environment (Beginner)",
@@ -16953,7 +16953,7 @@
   },
   {
     "category": "🧪 DevOps Labs — SRE",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "DevOps Lab 096 — SRE (Beginner)",
@@ -17034,7 +17034,7 @@
   },
   {
     "category": "🧪 Kubernetes Labs — Cluster",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Kubernetes Lab 001 — Cluster (Beginner)",
@@ -17115,7 +17115,7 @@
   },
   {
     "category": "🧪 Kubernetes Labs — Namespaces",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Kubernetes Lab 006 — Namespaces (Beginner)",
@@ -17196,7 +17196,7 @@
   },
   {
     "category": "🧪 Kubernetes Labs — Pods",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Kubernetes Lab 011 — Pods (Beginner)",
@@ -17277,7 +17277,7 @@
   },
   {
     "category": "🧪 Kubernetes Labs — Deployments",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Kubernetes Lab 016 — Deployments (Beginner)",
@@ -17358,7 +17358,7 @@
   },
   {
     "category": "🧪 Kubernetes Labs — ReplicaSets",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Kubernetes Lab 021 — ReplicaSets (Beginner)",
@@ -17439,7 +17439,7 @@
   },
   {
     "category": "🧪 Kubernetes Labs — Services",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Kubernetes Lab 026 — Services (Beginner)",
@@ -17520,7 +17520,7 @@
   },
   {
     "category": "🧪 Kubernetes Labs — Ingress",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Kubernetes Lab 031 — Ingress (Beginner)",
@@ -17601,7 +17601,7 @@
   },
   {
     "category": "🧪 Kubernetes Labs — ConfigMaps",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Kubernetes Lab 036 — ConfigMaps (Beginner)",
@@ -17682,7 +17682,7 @@
   },
   {
     "category": "🧪 Kubernetes Labs — Secrets",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Kubernetes Lab 041 — Secrets (Beginner)",
@@ -17763,7 +17763,7 @@
   },
   {
     "category": "🧪 Kubernetes Labs — Volumes",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Kubernetes Lab 046 — Volumes (Beginner)",
@@ -17844,7 +17844,7 @@
   },
   {
     "category": "🧪 Kubernetes Labs — Jobs",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Kubernetes Lab 051 — Jobs (Beginner)",
@@ -17925,7 +17925,7 @@
   },
   {
     "category": "🧪 Kubernetes Labs — DaemonSets",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Kubernetes Lab 056 — DaemonSets (Beginner)",
@@ -18006,7 +18006,7 @@
   },
   {
     "category": "🧪 Kubernetes Labs — StatefulSets",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Kubernetes Lab 061 — StatefulSets (Beginner)",
@@ -18087,7 +18087,7 @@
   },
   {
     "category": "🧪 Kubernetes Labs — RBAC",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Kubernetes Lab 066 — RBAC (Beginner)",
@@ -18168,7 +18168,7 @@
   },
   {
     "category": "🧪 Kubernetes Labs — Resources",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Kubernetes Lab 071 — Resources (Beginner)",
@@ -18249,7 +18249,7 @@
   },
   {
     "category": "🧪 Kubernetes Labs — Probes",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Kubernetes Lab 076 — Probes (Beginner)",
@@ -18330,7 +18330,7 @@
   },
   {
     "category": "🧪 Kubernetes Labs — Scheduling",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Kubernetes Lab 081 — Scheduling (Beginner)",
@@ -18411,7 +18411,7 @@
   },
   {
     "category": "🧪 Kubernetes Labs — NetworkPolicy",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Kubernetes Lab 086 — NetworkPolicy (Beginner)",
@@ -18492,7 +18492,7 @@
   },
   {
     "category": "🧪 Kubernetes Labs — Troubleshooting",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Kubernetes Lab 091 — Troubleshooting (Beginner)",
@@ -18573,7 +18573,7 @@
   },
   {
     "category": "🧪 Kubernetes Labs — Helm",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Kubernetes Lab 096 — Helm (Beginner)",
@@ -18654,7 +18654,7 @@
   },
   {
     "category": "🧪 Terraform Labs — CLI",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Terraform Lab 001 — CLI (Beginner)",
@@ -18735,7 +18735,7 @@
   },
   {
     "category": "🧪 Terraform Labs — Init",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Terraform Lab 006 — Init (Beginner)",
@@ -18816,7 +18816,7 @@
   },
   {
     "category": "🧪 Terraform Labs — Format",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Terraform Lab 011 — Format (Beginner)",
@@ -18897,7 +18897,7 @@
   },
   {
     "category": "🧪 Terraform Labs — Plan",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Terraform Lab 016 — Plan (Beginner)",
@@ -18978,7 +18978,7 @@
   },
   {
     "category": "🧪 Terraform Labs — State",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Terraform Lab 021 — State (Beginner)",
@@ -19059,7 +19059,7 @@
   },
   {
     "category": "🧪 Terraform Labs — Providers",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Terraform Lab 026 — Providers (Beginner)",
@@ -19140,7 +19140,7 @@
   },
   {
     "category": "🧪 Terraform Labs — Variables",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Terraform Lab 031 — Variables (Beginner)",
@@ -19221,7 +19221,7 @@
   },
   {
     "category": "🧪 Terraform Labs — Outputs",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Terraform Lab 036 — Outputs (Beginner)",
@@ -19302,7 +19302,7 @@
   },
   {
     "category": "🧪 Terraform Labs — Modules",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Terraform Lab 041 — Modules (Beginner)",
@@ -19383,7 +19383,7 @@
   },
   {
     "category": "🧪 Terraform Labs — Workspaces",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Terraform Lab 046 — Workspaces (Beginner)",
@@ -19464,7 +19464,7 @@
   },
   {
     "category": "🧪 Terraform Labs — Backends",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Terraform Lab 051 — Backends (Beginner)",
@@ -19545,7 +19545,7 @@
   },
   {
     "category": "🧪 Terraform Labs — Locks",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Terraform Lab 056 — Locks (Beginner)",
@@ -19626,7 +19626,7 @@
   },
   {
     "category": "🧪 Terraform Labs — Import",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Terraform Lab 061 — Import (Beginner)",
@@ -19707,7 +19707,7 @@
   },
   {
     "category": "🧪 Terraform Labs — Lifecycle",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Terraform Lab 066 — Lifecycle (Beginner)",
@@ -19788,7 +19788,7 @@
   },
   {
     "category": "🧪 Terraform Labs — Dependencies",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Terraform Lab 071 — Dependencies (Beginner)",
@@ -19869,7 +19869,7 @@
   },
   {
     "category": "🧪 Terraform Labs — Data Sources",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Terraform Lab 076 — Data Sources (Beginner)",
@@ -19950,7 +19950,7 @@
   },
   {
     "category": "🧪 Terraform Labs — Provisioners",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Terraform Lab 081 — Provisioners (Beginner)",
@@ -20031,7 +20031,7 @@
   },
   {
     "category": "🧪 Terraform Labs — Security",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Terraform Lab 086 — Security (Beginner)",
@@ -20112,7 +20112,7 @@
   },
   {
     "category": "🧪 Terraform Labs — Testing",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Terraform Lab 091 — Testing (Beginner)",
@@ -20193,7 +20193,7 @@
   },
   {
     "category": "🧪 Terraform Labs — Drift",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Terraform Lab 096 — Drift (Beginner)",
@@ -20274,7 +20274,7 @@
   },
   {
     "category": "🧪 Docker Labs — Version",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Docker Lab 001 — Version (Beginner)",
@@ -20355,7 +20355,7 @@
   },
   {
     "category": "🧪 Docker Labs — Images",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Docker Lab 006 — Images (Beginner)",
@@ -20436,7 +20436,7 @@
   },
   {
     "category": "🧪 Docker Labs — Containers",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Docker Lab 011 — Containers (Beginner)",
@@ -20517,7 +20517,7 @@
   },
   {
     "category": "🧪 Docker Labs — Run",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Docker Lab 016 — Run (Beginner)",
@@ -20598,7 +20598,7 @@
   },
   {
     "category": "🧪 Docker Labs — Exec",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Docker Lab 021 — Exec (Beginner)",
@@ -20679,7 +20679,7 @@
   },
   {
     "category": "🧪 Docker Labs — Logs",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Docker Lab 026 — Logs (Beginner)",
@@ -20760,7 +20760,7 @@
   },
   {
     "category": "🧪 Docker Labs — Networks",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Docker Lab 031 — Networks (Beginner)",
@@ -20841,7 +20841,7 @@
   },
   {
     "category": "🧪 Docker Labs — Volumes",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Docker Lab 036 — Volumes (Beginner)",
@@ -20922,7 +20922,7 @@
   },
   {
     "category": "🧪 Docker Labs — Build",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Docker Lab 041 — Build (Beginner)",
@@ -21003,7 +21003,7 @@
   },
   {
     "category": "🧪 Docker Labs — Dockerfile",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Docker Lab 046 — Dockerfile (Beginner)",
@@ -21084,7 +21084,7 @@
   },
   {
     "category": "🧪 Docker Labs — Compose",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Docker Lab 051 — Compose (Beginner)",
@@ -21165,7 +21165,7 @@
   },
   {
     "category": "🧪 Docker Labs — Registry",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Docker Lab 056 — Registry (Beginner)",
@@ -21246,7 +21246,7 @@
   },
   {
     "category": "🧪 Docker Labs — Healthcheck",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Docker Lab 061 — Healthcheck (Beginner)",
@@ -21327,7 +21327,7 @@
   },
   {
     "category": "🧪 Docker Labs — Resources",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Docker Lab 066 — Resources (Beginner)",
@@ -21408,7 +21408,7 @@
   },
   {
     "category": "🧪 Docker Labs — Security",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Docker Lab 071 — Security (Beginner)",
@@ -21489,7 +21489,7 @@
   },
   {
     "category": "🧪 Docker Labs — Storage",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Docker Lab 076 — Storage (Beginner)",
@@ -21570,7 +21570,7 @@
   },
   {
     "category": "🧪 Docker Labs — Context",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Docker Lab 081 — Context (Beginner)",
@@ -21651,7 +21651,7 @@
   },
   {
     "category": "🧪 Docker Labs — Troubleshooting",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Docker Lab 086 — Troubleshooting (Beginner)",
@@ -21732,7 +21732,7 @@
   },
   {
     "category": "🧪 Docker Labs — Cleanup",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Docker Lab 091 — Cleanup (Beginner)",
@@ -21813,7 +21813,7 @@
   },
   {
     "category": "🧪 Docker Labs — Release",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Docker Lab 096 — Release (Beginner)",
@@ -21894,7 +21894,7 @@
   },
   {
     "category": "🧪 Bash Scripting Labs — Variables",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Bash Scripting Lab 001 — Variables (Beginner)",
@@ -21975,7 +21975,7 @@
   },
   {
     "category": "🧪 Bash Scripting Labs — Arguments",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Bash Scripting Lab 006 — Arguments (Beginner)",
@@ -22056,7 +22056,7 @@
   },
   {
     "category": "🧪 Bash Scripting Labs — Conditionals",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Bash Scripting Lab 011 — Conditionals (Beginner)",
@@ -22137,7 +22137,7 @@
   },
   {
     "category": "🧪 Bash Scripting Labs — Loops",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Bash Scripting Lab 016 — Loops (Beginner)",
@@ -22218,7 +22218,7 @@
   },
   {
     "category": "🧪 Bash Scripting Labs — Functions",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Bash Scripting Lab 021 — Functions (Beginner)",
@@ -22299,7 +22299,7 @@
   },
   {
     "category": "🧪 Bash Scripting Labs — Arrays",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Bash Scripting Lab 026 — Arrays (Beginner)",
@@ -22380,7 +22380,7 @@
   },
   {
     "category": "🧪 Bash Scripting Labs — Strings",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Bash Scripting Lab 031 — Strings (Beginner)",
@@ -22461,7 +22461,7 @@
   },
   {
     "category": "🧪 Bash Scripting Labs — Files",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Bash Scripting Lab 036 — Files (Beginner)",
@@ -22542,7 +22542,7 @@
   },
   {
     "category": "🧪 Bash Scripting Labs — Pipes",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Bash Scripting Lab 041 — Pipes (Beginner)",
@@ -22623,7 +22623,7 @@
   },
   {
     "category": "🧪 Bash Scripting Labs — Redirection",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Bash Scripting Lab 046 — Redirection (Beginner)",
@@ -22704,7 +22704,7 @@
   },
   {
     "category": "🧪 Bash Scripting Labs — Exit Codes",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Bash Scripting Lab 051 — Exit Codes (Beginner)",
@@ -22785,7 +22785,7 @@
   },
   {
     "category": "🧪 Bash Scripting Labs — Regex",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Bash Scripting Lab 056 — Regex (Beginner)",
@@ -22866,7 +22866,7 @@
   },
   {
     "category": "🧪 Bash Scripting Labs — Awk",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Bash Scripting Lab 061 — Awk (Beginner)",
@@ -22947,7 +22947,7 @@
   },
   {
     "category": "🧪 Bash Scripting Labs — Sed",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Bash Scripting Lab 066 — Sed (Beginner)",
@@ -23028,7 +23028,7 @@
   },
   {
     "category": "🧪 Bash Scripting Labs — Find",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Bash Scripting Lab 071 — Find (Beginner)",
@@ -23109,7 +23109,7 @@
   },
   {
     "category": "🧪 Bash Scripting Labs — Date",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Bash Scripting Lab 076 — Date (Beginner)",
@@ -23190,7 +23190,7 @@
   },
   {
     "category": "🧪 Bash Scripting Labs — JSON",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Bash Scripting Lab 081 — JSON (Beginner)",
@@ -23271,7 +23271,7 @@
   },
   {
     "category": "🧪 Bash Scripting Labs — Errors",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Bash Scripting Lab 086 — Errors (Beginner)",
@@ -23352,7 +23352,7 @@
   },
   {
     "category": "🧪 Bash Scripting Labs — Debug",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Bash Scripting Lab 091 — Debug (Beginner)",
@@ -23433,7 +23433,7 @@
   },
   {
     "category": "🧪 Bash Scripting Labs — Automation",
-    "group": "Labs",
+    "group": "လက်တွေ့ Lab",
     "notes": [
       {
         "title": "Bash Scripting Lab 096 — Automation (Beginner)",
