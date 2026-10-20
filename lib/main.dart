@@ -251,18 +251,53 @@ class _HomeState extends State<Home> {
   );
 
   Widget stat(String label, String value, IconData icon) => Container(
-    padding: const EdgeInsets.all(15),
-    decoration: BoxDecoration(color: Colors.white, border: Border.all(color: const Color(0xFFE5EAE8)), borderRadius: BorderRadius.circular(13)),
-    child: Row(children: [
-      Container(padding: const EdgeInsets.all(9), decoration: BoxDecoration(color: const Color(0xFFF0F5F2), borderRadius: BorderRadius.circular(9)), child: Icon(icon, color: green, size: 19)),
+  padding: const EdgeInsets.all(15),
+  decoration: BoxDecoration(
+    color: Colors.white,
+    border: Border.all(color: const Color(0xFFE5EAE8)),
+    borderRadius: BorderRadius.circular(13),
+  ),
+  child: Row(
+    children: [
+      Container(
+        padding: const EdgeInsets.all(9),
+        decoration: BoxDecoration(
+          color: const Color(0xFFF0F5F2),
+          borderRadius: BorderRadius.circular(9),
+        ),
+        child: Icon(icon, color: green, size: 19),
+      ),
       const SizedBox(width: 11),
-      Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-        Text(value, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 20, color: ink)),
-        Text(label, style: const TextStyle(fontSize: 11, color: Color(0xFF81908C))),
-      ])),
-    ]),
-  );
-
+      Expanded(
+        child: FittedBox(
+          fit: BoxFit.scaleDown,
+          alignment: Alignment.centerLeft,
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Text(
+                value,
+                style: const TextStyle(
+                  fontWeight: FontWeight.w800,
+                  fontSize: 20,
+                  color: ink,
+                ),
+              ),
+              Text(
+                label,
+                style: const TextStyle(
+                  fontSize: 11,
+                  color: Color(0xFF81908C),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    ],
+  ),
+);
   Widget subjectCard(String g) {
     final cats = Store.data.where((c) => c['group'] == g).toList();
     final count = cats.fold<int>(0, (sum, c) => sum + (c['notes'] as List).length);
