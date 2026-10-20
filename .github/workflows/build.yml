@@ -1,45 +1,55 @@
-
-name: Build APK
-
+name: Offline Linux Notes CI
 on:
   push:
-    branches:
-      - main
+  pull_request:
   workflow_dispatch:
-
+permissions:
+  contents: read
 jobs:
-  build:
+  validate:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout source
-        uses: actions/checkout@v4
-
-      - name: Setup Java
-        uses: actions/setup-java@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run every offline Python QA script
+        shell: bash
+        run: |
+          set -euo pipefail
+          for script in tools/check_offline_content.py tools/audit_lab_catalog.py tools/test_*.py; do
+            echo "Checking $script"
+            python "$script"
+          done
+  build:
+    needs: validate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
         with:
           distribution: temurin
           java-version: '17'
-
-      - name: Setup Flutter
-        uses: subosito/flutter-action@v2
+      - uses: subosito/flutter-action@v2
         with:
           channel: stable
-
-      - name: Generate Android project
-        run: flutter create --platforms=android --org com.example .
-
-      - name: Clean project
-        run: flutter clean
-
-      - name: Install dependencies
+      - name: Generate platform scaffolding
+        run: flutter create --platforms=android,web --org com.example .
+      - name: Fetch dependencies
         run: flutter pub get
-
-      - name: Build release APK
+      - name: Verify Flutter code
+        run: flutter analyze --no-fatal-infos
+      - name: Run Flutter offline storage tests
+        run: flutter test
+      - name: Build Android APK
         run: flutter build apk --release
-
-      - name: Upload APK
-        uses: actions/upload-artifact@v4
+      - name: Build offline web bundle
+        run: flutter build web --release --base-href '/linux_note/'
+      - uses: actions/upload-artifact@v4
         with:
           name: linux-notes-apk
           path: build/app/outputs/flutter-apk/app-release.apk
+      - uses: actions/upload-artifact@v4
+        with:
+          name: linux-notes-web
+          path: build/web/

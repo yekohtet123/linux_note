@@ -1,0 +1,1 @@
+Atomic mkdir -p preflight prevents partial tree creation at filesystem capacity. Echo file size limit aligned to 4096-character restore validator. Restore now rejects missing directory parents, orphan modes, and conflicting removed paths. Python checks are static; Flutter compile/runtime unverified.
