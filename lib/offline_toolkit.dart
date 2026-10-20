@@ -632,7 +632,7 @@ class _OfflineToolkitState extends State<OfflineToolkit> {
     const SizedBox(height: 8),
     LinearProgressIndicator(value: verifiedChallenges.length/virtualChallenges.length),
     const SizedBox(height: 12),
-    DropdownButtonFormField<int>(value: challenge, decoration: const InputDecoration(labelText:'Choose a virtual lab'),
+    DropdownButtonFormField<int>(initialValue: challenge, decoration: const InputDecoration(labelText:'Choose a virtual lab'),
       items: [for(int i=0;i<virtualChallenges.length;i++) DropdownMenuItem(value:i, child: Text('${i+1}. ${virtualChallenges[i][0]}'))],
       onChanged: (v)=>setState(()=>challenge=v ?? 0)),
     const SizedBox(height: 18),
@@ -662,7 +662,7 @@ class _OfflineToolkitState extends State<OfflineToolkit> {
       Set<String> strings(String key) {
         final v = data[key];
         if(v == null) return {};
-        if(v is! List || v.length > 5000 || v.any((x)=>x is! String || (x as String).length > 300)) {
+        if(v is! List || v.length > 5000 || v.any((x)=>x is! String || x.length > 300)) {
           throw FormatException('Invalid $key');
         }
         return v.cast<String>().toSet();
@@ -756,7 +756,7 @@ class _OfflineToolkitState extends State<OfflineToolkit> {
     Wrap(spacing: 4, runSpacing: 4, children: [for (int i=1; i<=100; i++) FilterChip(label: Text('$i'), selected: days.contains(i), onSelected: (v) {setState(() {if(v){days.add(i);}else{days.remove(i);} save();});})]),
   ]);
   Widget incidentPage() => ListView(padding: const EdgeInsets.all(16), children: [
-    DropdownButtonFormField<int>(value: incident, decoration: InputDecoration(labelText: tr('ပြဿနာအခြေအနေ','Incident scenario')), items: [for (int i=0;i<incidents.length;i++) DropdownMenuItem(value:i,child: Text(incidents[i][0]))], onChanged: (v)=>setState(() {incident=v ?? 0; reveal=false;})),
+    DropdownButtonFormField<int>(initialValue: incident, decoration: InputDecoration(labelText: tr('ပြဿနာအခြေအနေ','Incident scenario')), items: [for (int i=0;i<incidents.length;i++) DropdownMenuItem(value:i,child: Text(incidents[i][0]))], onChanged: (v)=>setState(() {incident=v ?? 0; reveal=false;})),
     const SizedBox(height: 18), Text(incidents[incident][1], style: Theme.of(context).textTheme.titleMedium),
     const SizedBox(height: 12), Text(tr('ပြဿနာကို ရှာဖွေပြီး စစ်ဆေးရန် Command များကို စဉ်းစားပါ။','Task: Identify the problem and propose diagnostic commands.')),
     const SizedBox(height: 16), OutlinedButton(onPressed: ()=>setState(()=>reveal=!reveal), child: Text(reveal ? tr('အရိပ်အမြွက် ဖျောက်ရန်','Hide hints') : tr('အရိပ်အမြွက်နှင့် နမူနာ Command ကြည့်ရန်','Reveal hints & example commands'))),

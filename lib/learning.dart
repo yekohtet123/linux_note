@@ -109,7 +109,7 @@ class _LearningQuizState extends State<LearningQuiz> {
     final rotated = [...options.skip(shift), ...options.take(shift)];
     return Scaffold(appBar: AppBar(title: const Text('Interactive Quiz')),
       body: ListView(padding: const EdgeInsets.all(20), children: [
-        DropdownButtonFormField<String>(value: category, decoration: const InputDecoration(labelText: 'Subject'),
+        DropdownButtonFormField<String>(initialValue: category, decoration: const InputDecoration(labelText: 'Subject'),
           items: quizBank.map((e) => e[0]).toSet().map((c) => DropdownMenuItem(value: c, child: Text(c))).toList(),
           onChanged: (v) { if (v != null) reset(v); }),
         const SizedBox(height: 20),
@@ -122,7 +122,9 @@ class _LearningQuizState extends State<LearningQuiz> {
           const SizedBox(height: 16), Text('Question ${index + 1} / ${qs.length}', style: const TextStyle(fontWeight: FontWeight.bold)),
           const SizedBox(height: 12), Text(q[1], style: const TextStyle(fontSize: 20)),
           const SizedBox(height: 14),
-          for (var i = 0; i < rotated.length; i++) RadioListTile<int>(title: Text(rotated[i]), value: i, groupValue: selected, onChanged: (v) => setState(() => selected = v)),
+          RadioGroup<int>(groupValue: selected, onChanged: (v) => setState(() => selected = v), child: Column(children: [
+            for (var i = 0; i < rotated.length; i++) RadioListTile<int>(title: Text(rotated[i]), value: i),
+          ])),
           const SizedBox(height: 14),
           FilledButton(onPressed: selected == null ? null : () {
             if (rotated[selected!] == q[2]) score++;
